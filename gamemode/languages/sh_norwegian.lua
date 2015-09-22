@@ -124,7 +124,7 @@ LANGUAGE = {
 	Weapons = "Våpen",
 	checkout = "Gå til kassen (%s)",
 	purchase = "Kjøp",
-	purchasing = "Kjøp = er...",
+	purchasing = "Kjøper...",
 	success = "Suksess",
 	buyFailed = "Kjøpet mislyktes.",
 	buyGood = "Kjøp vellykket!",
