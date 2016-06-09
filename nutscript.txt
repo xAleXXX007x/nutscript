@@ -3,4 +3,5 @@
 	"base"		"sandbox"
 	"title"		"NutScript 1.1"
 	"author"	"Chessnut and Black Tea"
+	"menusystem"	"1"
 }
