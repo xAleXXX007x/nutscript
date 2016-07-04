@@ -45,7 +45,7 @@ modules.sqlite = {
 modules.tmysql4 = {
 	query = function(query, callback)
 		if (nut.db.object) then
-			nut.db.object:Query(query, function(data, status, lastID)
+			nut.db.object:Query(query, function(status, data, lastID)
 				if (QUERY_SUCCESS and status == QUERY_SUCCESS) then
 					if (callback) then
 						callback(data, lastID)
