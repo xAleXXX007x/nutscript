@@ -372,6 +372,8 @@ function GM:PlayerLoadout(client)
 		hook.Run("PostPlayerLoadout", client)
 
 		client:SelectWeapon("nut_hands")
+		client:SetHealth(class.health or faction.health or 100)
+		client:SetMaxHealth(class.maxhealth or faction.maxhealth or 100)
 	else
 		client:SetNoDraw(true)
 		client:Lock()
