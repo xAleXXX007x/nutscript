@@ -1,7 +1,7 @@
-﻿
---Russian translation by Shadow Nova (http://steamcommunity.com/profiles/76561197989134302)
+﻿--Russian translation by Shadow Nova (http://steamcommunity.com/profiles/76561197989134302)
 --Edited/fixed by Schwarz Kruppzo (http://steamcommunity.com/id/schwarzkruppzo)
 --Edited and added new by Neon (http://steamcommunity.com/id/ru_neon)
+
 NAME = "Русский"
 
 LANGUAGE = {
@@ -101,11 +101,11 @@ LANGUAGE = {
 	moneyTaken = "Вы нашли %s.",
 	businessPurchase = "Вы купили %s за %s.",
 	businessSell = "Вы продали %s за %s.",
-	cChangeModel = "%s поменял %s's модель на %s.",
-	cChangeName = "%s поменял %s's имя на %s.",
-	cChangeSkin = "%s поменял %s's скин на %s.",
-	cChangeGroups = "%s поменял %s's \"%s\" бодигруппу на %s.",
-	cChangeFaction = "%s переместил %s в фракцию %s.",
+	cChangeModel = "%s поменял игроку %s модель на %s.",
+	cChangeName = "%s поменял игроку %s имя на %s.",
+	cChangeSkin = "%s поменял игроку %s скин на %s.",
+	cChangeGroups = "%s поменял игроку %s \"%s\" бодигруппу на %s.",
+	cChangeFaction = "%s переместил игрока %s в фракцию %s.",
 	playerCharBelonging = "Этот объект принадлежит другому вашему персонажу.",
 	business = "Бизнес",
 	invalidFaction = "Вы предъявили недействительную фракцию.",
@@ -140,8 +140,8 @@ LANGUAGE = {
 	illegalAccess = "Запрещённый доступ.",
 	becomeClassFail = "Не получилось стать %s.",
 	becomeClass = "Вы стали %s.",
-	attribSet = "Вы поменяли %s's %s на %s.",
-	attribUpdate = "Вы добавили %s's %s by %s.",
+	attribSet = "Вы поменяли игроку %s %s на %s.",
+	attribUpdate = "Вы добавили игроку %s %s +%s.",
 	noFit = "Этот предмет не помещается в инвентаре.",
 	help = "Помощь",
 	commands = "Команды",
@@ -171,7 +171,7 @@ LANGUAGE = {
 	charKick = "%s кикнул персонажа %s.",
 	charBan = "%s забанил персонажа %s.",
 	charBanned = "Этот персонаж забанен.",
-	setMoney = "Вы установили %s's количество денег на %s.",
+	setMoney = "Вы установили игроку %s количество денег на %s.",
 	itemPriceInfo = "Вы можете купить этот предмет за %s.\nВы можете продать этот предмет за %s",
 	free = "Бесплатно",
 	vendorNoSellItems = "Здесь нету предметов для продажи.",
@@ -250,5 +250,6 @@ LANGUAGE = {
 	Equip = "Экипировать",
 	Unequip = "Снять",
 	Load = "Распаковать",
-	View = "Открыть"
+	View = "Открыть",
+	typing = "(Пишет)"
 }
