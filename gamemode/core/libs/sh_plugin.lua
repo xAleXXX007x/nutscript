@@ -172,7 +172,9 @@ function nut.plugin.loadFromDir(directory)
 	local files, folders = file.Find(directory.."/*", "LUA")
 
 	for k, v in ipairs(folders) do
-		nut.plugin.load(v, directory.."/"..v)
+		if v != "_disabled" then
+			nut.plugin.load(v, directory.."/"..v)
+		end
 	end
 
 	for k, v in ipairs(files) do
